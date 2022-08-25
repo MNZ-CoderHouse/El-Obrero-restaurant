@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid py-2">
+        <div className="container-fluid py-2 d-flex ">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -14,16 +14,16 @@ const Navbar = () => {
                         <NavLink className="nav-link active" aria-current="page" to="/Home"> Home </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/Product"> The letter </NavLink>
+                        <NavLink className="nav-link" to="/letter"> The letter </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/About"> about me </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/Contact"> Contact </NavLink>
+                        <NavLink className="nav-link" to="/blog"> Blog </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/Contact"> Blog </NavLink>
+                        <NavLink className="nav-link" to="/Contact"> Contact </NavLink>
                     </li>
                 </ul>
                 {/* <NavLink className="navbar-brand fw-bold fs-3 mx-auto" to="/"> <img src= '' className='w-25 h-25' alt="Los Magios Logo"/> Magios Shop </NavLink> */}

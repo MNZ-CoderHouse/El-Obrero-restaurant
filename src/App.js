@@ -5,6 +5,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
+import Letter from './components/Letter';
+import  Blog  from './components/Blog';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route exact path='/home' element={ <Home/> } />
         <Route exact path='/about' element={ <About/> } />
         <Route exact path='/contact' element={ <Contact/> } />
+        <Route exact path='/letter' element={ <Letter/> } />
+        <Route exact path='/blog' element={ <Blog/> } />
       </Routes>
       <Footer/>
     </>
