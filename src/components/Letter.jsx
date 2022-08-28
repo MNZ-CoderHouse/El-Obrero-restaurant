@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 const Letter = () => {
     const [filter, setFilter] = useState(DATA);
-  
+
 
     const filterProduct = (cat) => {
         const updatedList = DATA.filter((x)=> x.category === cat);
@@ -16,7 +16,7 @@ const Letter = () => {
         return (
             <>
                 <div className="buttons d-flex justify-content-center mb-5 pb-5 ">
-                    <button className="btn btn-outline-primary me-2" onClick={()=>setFilter(DATA)}> Todos </button>
+                    <button className="btn btn-outline-primary me-2" onClick={()=>setFilter(DATA)}> All </button>
                     <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("drink")}> Drink </button>
                     <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("fit")}> Fitnes </button>
                     <button className="btn btn-outline-primary me-2" onClick={()=>filterProduct("itali")}> Itali </button>

@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Letter from './components/Letter';
 import  Blog  from './components/Blog';
+import ProductDetail from './components/ProductDetail';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/about' element={ <About/> } />
         <Route exact path='/contact' element={ <Contact/> } />
         <Route exact path='/letter' element={ <Letter/> } />
+        <Route exact path="product/:id" element={ <ProductDetail/> } />
         <Route exact path='/blog' element={ <Blog/> } />
       </Routes>
       <Footer/>

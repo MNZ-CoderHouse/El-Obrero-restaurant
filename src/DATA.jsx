@@ -2,7 +2,7 @@ const DATA = [
     {
     "id": 1,
     "name": "Pizza Margarita",
-    "price": 119.999,
+    "price": 12.99,
     "category": "itali",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/margarita.jpg"
@@ -10,7 +10,7 @@ const DATA = [
     {
     "id": 2,
     "name": "American Burger",
-    "price": 119.999,
+    "price": 9.99,
     "category": "fastfood",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/americanburger.jpg"
@@ -18,7 +18,7 @@ const DATA = [
     {
     "id": 3,
     "name": "Milanesa Argentina",
-    "price": 119.999,
+    "price": 10.99,
     "category": "regional",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/milanesa.jpg"
@@ -26,7 +26,7 @@ const DATA = [
     {
     "id": 4,
     "name": "Chiken on the disk",
-    "price": 119.999,
+    "price": 24.99,
     "category": "regional",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/chikenonthedisk.jpg"
@@ -34,7 +34,7 @@ const DATA = [
     {
     "id": 5,
     "name": "poulet rôti",
-    "price": 119.999,
+    "price": 24.00,
     "category": "regional",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/rotichiken.jpg"
@@ -42,7 +42,7 @@ const DATA = [
     {
     "id": 6,
     "name": "Hummus",
-    "price": 119.999,
+    "price": 8.99,
     "category": "regional",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/hummus.jpeg"
@@ -50,7 +50,7 @@ const DATA = [
     {
     "id": 6,
     "name": "Conitos",
-    "price": 119.999,
+    "price": 9.99,
     "category": "fit",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/food/6.jpeg"
@@ -58,7 +58,7 @@ const DATA = [
     {
     "id": 7,
     "name": "Coffe Plus",
-    "price": 119.999,
+    "price": 5.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/drink/cafe.jpg"
@@ -66,7 +66,7 @@ const DATA = [
     {
     "id": 8,
     "name": "Cuba Libre",
-    "price": 119.999,
+    "price": 9.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/drink/cubalibre.jpg"
@@ -74,7 +74,7 @@ const DATA = [
     {
     "id": 9,
     "name": "Manhattan",
-    "price": 119.999,
+    "price": 11.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/drink/Manhattan.jpg"
@@ -82,7 +82,7 @@ const DATA = [
     {
     "id": 10,
     "name": "Mojito",
-    "price": 119.999,
+    "price": 9.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/drink/mojito.jpg"
@@ -90,7 +90,7 @@ const DATA = [
     {
     "id": 11,
     "name": "whisky Sour",
-    "price": 119.999,
+    "price": 11.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
     "image": "/assets/drink/whiskysour.jpg"
