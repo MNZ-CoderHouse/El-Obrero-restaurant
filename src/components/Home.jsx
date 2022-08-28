@@ -1,5 +1,5 @@
 import React from 'react'
-import EFECT from '../assets/efect.png';
+import Letter from './Letter'
 
 const Home = () => {
   return (
@@ -13,12 +13,15 @@ const Home = () => {
           </div>
       </section>
     </div>
-    <div>
-      <img src='../' alt='efect' className='w-100'/>
+
+    <Letter/>
+    
+    {/* <div>
+      <img src='' alt='efect' className='w-100'/>
       <section>
-        
       </section>
-    </div>
+    </div> */}
+
   </>
   )
 }
