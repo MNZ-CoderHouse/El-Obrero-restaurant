@@ -8,20 +8,12 @@ const Home = () => {
       <section id='home'>
           <div className='row justify-content-center'>
             <div className='col-md-8 mt-5'>
-              <h1 className='display-3 fw-bolder mb-4 mt-5 text-white'> Welcome to my kitchen. </h1>
+              <h1 className='display-2 mt-5 fw-normal text-white'> Bienvenidos a mi cocina. </h1>
             </div>
           </div>
       </section>
+      <div id='efect'></div>
     </div>
-
-    <Letter/>
-    
-    {/* <div>
-      <img src='' alt='efect' className='w-100'/>
-      <section>
-      </section>
-    </div> */}
-
   </>
   )
 }

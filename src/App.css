@@ -4,7 +4,17 @@
   min-height: 600px;
 }
 
+#letter{
+  background-image: url(/public/assets/letter.jpeg);
+  background-size: cover;
+  min-height: 550px;
+}
 
+#efect{
+  background-image: url(/public/assets/images.jpg);
+  background-size: cover;
+  min-height: 40px;
+}
 
 .App {
   text-align: center;

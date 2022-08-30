@@ -73,7 +73,7 @@ const Footer = () => {
 
                 <div className='d-flex justify-content-between pt-4 mt-4 border-top'>
                   <p> Copyright &copy; 2022 El Obrero all rigths reserved. </p>
-                  <NavLink className='link-secondary' target="_blank" to='https://matiasnzamora.com.ar'> Porfolio Web Desinger </NavLink>
+                  <NavLink className='link-secondary' target="_blank" to='https://matiasnzamora.com.ar'> Portafolio Web Desinger </NavLink>
                   
                   <ul className='list-unstyled d-flex'>
                     <li className='ms-3'>
