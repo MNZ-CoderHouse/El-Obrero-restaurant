@@ -1,15 +1,15 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
-import { useDispatch } from 'react-redux';
-import {delItem} from './redux/actions/index';
+// import { useSelector } from 'react-redux';
+// import { useDispatch } from 'react-redux';
+// import {delItem} from './redux/actions/index';
 import { NavLink } from 'react-router-dom';
 
 const Cart = () => {
-    const state = useSelector((state) => state.addItem);
-    const dispatch = useDispatch();
+    // const state = useSelector((state) => state.addItem);
+    // const dispatch = useDispatch();
 
     const handleClose = (item) => {
-        dispatch(delItem(item))
+        // dispatch(delItem(item))
     }
     
     const cartItems = (cartItem) => {

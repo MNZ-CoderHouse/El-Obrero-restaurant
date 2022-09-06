@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import Letter from './components/Letter';
 import  Blog  from './components/Blog';
 import ProductDetail from './components/ProductDetail';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/letter' element={ <Letter/> } />
         <Route exact path="product/:id" element={ <ProductDetail/> } />
         <Route exact path='/blog' element={ <Blog/> } />
+        <Route exact path='/cart' element={ <Cart/> } />
       </Routes>
       <Footer/>
     </>

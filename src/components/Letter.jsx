@@ -6,8 +6,6 @@ import {NavLink} from 'react-router-dom';
 
 const Letter = () => {
     const [filter, setFilter] = useState(DATA);
-
-
     const filterProduct = (cat) => {
         const updatedList = DATA.filter((x)=> x.category === cat);
         setFilter(updatedList);
