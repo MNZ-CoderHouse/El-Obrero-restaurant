@@ -9,6 +9,7 @@ import Letter from './components/Letter';
 import  Blog  from './components/Blog';
 import ProductDetail from './components/ProductDetail';
 import Cart from './components/Cart';
+import Checkout from './components/Checkout';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/contact' element={ <Contact/> } />
         <Route exact path='/letter' element={ <Letter/> } />
         <Route exact path="product/:id" element={ <ProductDetail/> } />
+        <Route exact path='/checkout' element={ <Checkout/> } />
         <Route exact path='/blog' element={ <Blog/> } />
         <Route exact path='/cart' element={ <Cart/> } />
       </Routes>
