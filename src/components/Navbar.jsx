@@ -11,7 +11,7 @@ return (
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                    <NavLink className="nav-link fs-3 " to="/"> El Obrero Restaurant </NavLink>
+                    <NavLink className="nav-link fs-3 " to="/"> El Obrero Restaurante </NavLink>
                     <div className='mx-auto'></div>
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">

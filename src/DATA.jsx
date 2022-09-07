@@ -33,7 +33,7 @@ const DATA = [
     },
     {
     "id": 5,
-    "name": "poulet rôti",
+    "name": "Poulet rôti",
     "price": 24.00,
     "category": "regional",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",
@@ -89,7 +89,7 @@ const DATA = [
     },
     {
     "id": 11,
-    "name": "whisky Sour",
+    "name": "Whisky Sour",
     "price": 11.99,
     "category": "drink",
     "description": "IMPRESIONANTE PANTALLA QHD 2K Disfrute de una calidad de imagen inmaculada 16 9 con resolución 2K QHD 2560x1440 en un panel de ángulo de visión IPS amplio con 95% de espacio de color DCI-P3.",

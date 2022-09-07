@@ -18,7 +18,7 @@ const Cart = () => {
                     <button onClick={()=> handleClose(cartItem)} className="btn-close float-end" aria-label='Cerrar'></button>
                     <div className="row justify-content-center">
                         <div className="col-md-4">
-                            <img src={cartItem.image} alt={cartItem.name} height="200px" width="180px" />
+                            <img className='rounded-2' src={cartItem.image} alt={cartItem.name} height="200px" width="180px" />
                         </div>
                         <div className="col-md-4"> 
                             <h3>{cartItem.name}</h3>
@@ -35,7 +35,7 @@ const Cart = () => {
             <div className="px-4 my-5 bg-light rounded-3">
                 <div className="container py-4">
                     <div className="row">
-                        <img src="/assets/img/cartEmpty.png" alt="Empty-Cart" height="600px" width="auto" />
+                        <img src="/assets/empty2.png" alt="Empty-Cart" height="500px" width="300px" />
                         <h3 className='text-center'> Tu Carrito esta bacio </h3>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Cart = () => {
         return (
             <div className="container py-4">
                 <div className="row">
-                    <NavLink to= "/checkout" className="btn btn-outline-primary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
+                    <NavLink to= "/checkout" className="btn btn-outline-secondary mb-5 w-25 mx-auto"> Procesar tu compra </NavLink>
                 </div>
             </div>
         )

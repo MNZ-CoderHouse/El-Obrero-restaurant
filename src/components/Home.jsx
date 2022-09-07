@@ -1,5 +1,5 @@
 import React from 'react'
-import Letter from './Letter'
+// import Letter from './Letter'
 
 const Home = () => {
   return (
